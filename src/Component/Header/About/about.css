@@ -1,0 +1,19 @@
+.about {
+    width: 90%;
+    margin: 0 auto;
+    background-image: url("https://picsum.photos/id/182/1200/600");
+    background-attachment: fixed;
+}
+.about h1{
+    margin-top: 0;
+    padding-top: 30px;
+}
+.about p{
+    padding: 10px;
+    text-align: justify;
+    text-indent: 40px;
+}
+
+.home img{
+    padding: 0 0 20px 20px;
+}

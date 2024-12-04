@@ -1,0 +1,68 @@
+.products{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.title-products {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  
+}
+.product{
+  margin: 10px;
+  background-color: rgb(235, 225, 169);
+  padding: 10px 10px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 5px 5px 5px ;
+}
+.brand {
+    display: inline-block;
+    font-size: 30px;
+  }
+  .name {
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(95, 102, 29);
+    
+  }
+  .pic {
+  width: 60%;
+  height: 40%;
+  border-radius: 20px;
+  box-shadow: 8px 8px 8px yellow;
+  margin: 5px 0;
+  
+  
+  }
+  .model {
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(43, 46, 22);
+    padding: 5px 0;
+  }
+  .description {
+    display: inline-block;
+    font-size: 15px;
+    color: rgb(43, 46, 22);
+    
+  }
+  .cost {
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(243, 8, 8);
+    font-weight: 700;
+  }
+  .buy {
+      font-size: 15px;
+      font-weight: 700;
+      padding: 5px 20px;
+      background-color: yellow;
+      border-radius: 10px;
+      margin-top: 5px;
+      
+  }
+  .buy a {
+     text-decoration: none; 
+  }
+  

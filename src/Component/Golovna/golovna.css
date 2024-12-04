@@ -1,0 +1,72 @@
+.golovna {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+}
+h1 {
+    font-size: 70px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  text-shadow: 10px 10px 10px black;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  text-shadow: 5px 5px 5px black;
+}
+h3{
+    font-size: 20px;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  text-shadow: 5px 5px 5px rgb(98, 133, 17);;
+}
+/* ======================================= 1 ========================================= */
+.container-1 {
+    width: 20%;
+    text-align: center;
+    text-align: justify;
+}
+.left-part p {
+    text-indent: 30px;
+}
+.left-part img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* ===================================== 2 ======================================== */
+.container-2 {
+    width: 60%;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    text-align: justify;
+}
+.central-part p{
+    text-indent: 40px;
+}
+.central-part img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;	
+}
+/* ======================================= 3 =========================================== */
+.container-3 {
+    width: 20%;
+    text-align: center; 
+    text-align: justify;
+}
+.right-part p{
+    text-indent: 40px;
+}
+.right-part img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
